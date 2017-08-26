@@ -1,16 +1,19 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-import Header from './components/Header';
 import Footer from './components/Footer';
+import Layout from './Layout';
+import Header from './components/Header';
 
 class App extends Component {
-	
 	render(){
 		return(
 			<div>
 				<Header />
-				This is main file : app.js
+				<div className="row">
+					This is main page
+				</div>
+				<Layout />
 				<Footer />
 			</div>
 			)

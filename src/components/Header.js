@@ -5,7 +5,7 @@ class Header extends Component {
     return(
         <div>
           <div className='row'>
-              This is header 
+              This is Header 
           </div>       
         </div>
       )
