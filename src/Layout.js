@@ -28,7 +28,7 @@ class Layout extends Component {
 	      	  Enter Profile Details : <br />
 	          <div>Enter Name         : <input onChange={this.handleNameChange.bind(this)} /></div>
 	          <div>Enter Location     : <input onChange={this.handleLocationChange} /></div>
-	          Name is : {this.state.name} and  location {this.state.location}
+	          Name is {this.state.name} and location is {this.state.location}.
 	        </div>
 	          <Right cust={this.state } />
 	      </div>       

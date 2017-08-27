@@ -22629,10 +22629,11 @@ var Layout = function (_Component) {
 						'Enter Location     : ',
 						_react2.default.createElement('input', { onChange: this.handleLocationChange })
 					),
-					'Name is : ',
+					'Name is ',
 					this.state.name,
-					' and  location ',
-					this.state.location
+					' and location is ',
+					this.state.location,
+					'.'
 				),
 				_react2.default.createElement(_Right2.default, { cust: this.state })
 			);
@@ -22734,7 +22735,7 @@ var Right = function (_Component) {
             return _react2.default.createElement(
                 'div',
                 { className: 'col' },
-                'This is Getting changed in Component named Right ',
+                'This is getting changed in Component named Right ',
                 _react2.default.createElement('br', null),
                 'Name  : ',
                 this.props.cust.name,
